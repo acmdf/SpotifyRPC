@@ -1,0 +1,14 @@
+[project]
+name = "spotifyrpc"
+version = "0.1.0"
+description = ""
+authors = []
+requires-python = ">=3.12"
+dependencies = ["pypresence>=4.6.2", "spotipy>=2.26.0"]
+
+[project.scripts]
+spotifyrpc = "spotifyrpc:main"
+
+[build-system]
+requires = ["uv_build>=0.11.0,<0.13.0"]
+build-backend = "uv_build"

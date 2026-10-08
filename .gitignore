@@ -1,6 +1,4 @@
-venv
-.env
-.cache
-*.log
 __pycache__
 *.pyc
+.direnv
+.venv
